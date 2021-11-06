@@ -1,3 +1,70 @@
+/* #000000 лого */
+/* #212121 навігація, заголовки секцій */
+/* #757575 основний колір тексту, контакти, текст секцій */
+/* #2196F3 акцент */
+/* #FFFFFF текст герой */
+/* #FFFFFF другий фон */
+/* #E5E5E5 основний фон */
+
 body {
+    color: #757575;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+/* лого */
+
+.logo {
+    color: #000000;
+}
+.logo:hover {
+    color: #2196F3;
+}
+
+/* навігація */
+
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* герой */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;    
+}
+
+/* section */
+
+.section-title {
+    color: #212121;
+}
+
+/* features */
+
+.feature-list .title {
+    color: #212121;
+}
+
+.feature-list .text {
+    color: ;
+}
+
+.section-title .link {
+
+}
+
+.section-title .title {
+    color: #212121;
 }
