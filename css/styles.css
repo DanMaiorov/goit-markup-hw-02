@@ -5,6 +5,8 @@
 /* #FFFFFF текст герой */
 /* #FFFFFF другий фон */
 /* #E5E5E5 основний фон */
+/* raleway logo-700 */
+/* roboto nav-500 hero-900 button&h3-700 text&address-400 names-500*/
 
 :root {
   --primary-text-color: #757575;
@@ -19,6 +21,7 @@ body {
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -33,6 +36,10 @@ body {
 
 .logo {
   color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo:hover {
   color: var(--accent-color);
@@ -42,6 +49,10 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -55,6 +66,10 @@ body {
 
 .contacts-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts-nav .link:hover,
@@ -70,27 +85,55 @@ body {
 
 .hero-title {
   color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-/* section */
+/* sections */
 
 .section-title {
   color: var(--title-text-color);
-}
-
-.title {
-  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* features */
 
 .feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
-.work-list {
+.team {
+  background-color: var(--button-color);
+}
+
+.team-list .name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.job {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 .footer {
@@ -100,6 +143,7 @@ body {
 .footer-contacts .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
 }
 
 .logo-bottom {
@@ -123,19 +167,17 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--button-color);
-  font-size: ;
-  display: ;
-  padding: ;
-  border: ;
   border-color: var(--button-color);
 }
 
-.studio-button {
+.order-button {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
-  font-size: ;
-  display: ;
-  padding: ;
-  border: ;
   border-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
