@@ -181,6 +181,23 @@ body {
 
 /* portfolio */
 
+.filter-button {
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+  border-color: var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.portfolio-category .filter-button:hover,
+.portfolio-category .filter-button:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
 .examples-list .title {
   color: var(--title-text-color);
   font-weight: bold;
@@ -193,21 +210,4 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
-}
-
-.portfolio-category .filter-button:hover,
-.portfolio-category .filter-button:focus {
-  color: var(--secondary-text-color);
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.filter-button {
-  color: var(--title-text-color);
-  background-color: var(--button-color);
-  border-color: var(--button-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
 }
