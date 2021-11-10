@@ -145,10 +145,6 @@ body {
   line-height: 1.71;
 }
 
-.team {
-  background-color: var(--button-color);
-}
-
 .team-list .name {
   color: var(--title-text-color);
   font-weight: 500;
